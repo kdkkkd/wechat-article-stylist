@@ -14,22 +14,13 @@
 
 ## Repository Structure
 
-```text
-.
-├─ README.md
-├─ .gitignore
-├─ examples/
-│  └─ sample-prompts.md
-└─ wechat-article-stylist/
-   ├─ SKILL.md
-   ├─ agents/
-   │  └─ openai.yaml
-   ├─ references/
-   │  ├─ layout-recipes.md
-   │  └─ voice-and-structure.md
-   └─ assets/
-      └─ wechat-article-template.md
-```
+仓库结构以高层目录划分为主，具体文件与子目录请以仓库实际内容为准。
+
+- `examples/`：示例提示词与用法参考
+- `wechat-article-stylist/`：skill 主体目录，包含定义文件、agent 配置、参考资料和模板资产
+  - `agents/`：agent 配置
+  - `references/`：写作结构、排版策略与风格参考
+  - `assets/`：可复用的文章模板资产
 
 ## What The Skill Produces
 
@@ -94,11 +85,24 @@ Use $wechat-article-stylist to write a WeChat public account article about why d
 
 ## Included Files
 
-- [SKILL.md](/D:/gzh/wechat-article-stylist/SKILL.md)
-- [openai.yaml](/D:/gzh/wechat-article-stylist/agents/openai.yaml)
-- [layout-recipes.md](/D:/gzh/wechat-article-stylist/references/layout-recipes.md)
-- [voice-and-structure.md](/D:/gzh/wechat-article-stylist/references/voice-and-structure.md)
-- [wechat-article-template.md](/D:/gzh/wechat-article-stylist/assets/wechat-article-template.md)
+以下文件是该 skill 的最小必需文件；安装后请优先确认它们都存在：
+
+- `wechat-article-stylist/SKILL.md`
+- `wechat-article-stylist/agents/openai.yaml`
+- `wechat-article-stylist/references/layout-recipes.md`
+- `wechat-article-stylist/references/voice-and-structure.md`
+- `wechat-article-stylist/assets/wechat-article-template.md`
+
+### 安装后建议自检
+
+安装完成后，建议快速检查上述 5 个文件是否都已落在目标 skills 目录中。
+
+如果缺少其中任意文件，skill 可能仍可被触发，但会出现以下问题之一：
+
+- 缺少 `SKILL.md`：skill 无法被正常识别或执行
+- 缺少 `agents/openai.yaml`：agent 配置不完整，调用行为可能异常
+- 缺少 `references/` 下文件：写作结构、标题与排版参考会部分失效
+- 缺少 `assets/wechat-article-template.md`：成稿模板能力会部分失效
 
 ## Notes
 
