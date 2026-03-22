@@ -35,3 +35,16 @@ Use $wechat-article-stylist to draft a polished WeChat article explaining 5 prac
 ```text
 使用 $wechat-article-stylist，把我现有的草稿优化成更适合公众号发布的版本，重点优化标题、开头、小标题和排版节奏。
 ```
+
+
+## AI 知识博主
+
+```text
+使用 $wechat-article-stylist，帮我细化一个“AI 知识博主公众号”风格：要求专业、克制、信息密度高，但不要太像说明书；可以自然提到 OpenClaw、OpenAI、工作流和 Agent 的协作方式。
+```
+
+## OpenClaw 场景
+
+```text
+Use $wechat-article-stylist to write a WeChat article for an AI creator account about how to combine OpenClaw with mainstream models in a practical content workflow. Include title options, a subtitle, summary, body layout, and a short section on common mistakes.
+```
