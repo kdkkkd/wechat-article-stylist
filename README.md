@@ -75,7 +75,7 @@ Use $wechat-article-stylist to write a WeChat public account article about why d
 使用 $wechat-article-stylist，写一篇关于“普通人如何建立稳定输出习惯”的公众号文章，风格真诚、有质感，适合个人成长类账号。
 ```
 
-更多示例见 [sample-prompts.md](/D:/gzh/examples/sample-prompts.md)。
+更多示例见 [sample-prompts.md](examples/sample-prompts.md)。
 
 ## Skill Design
 
@@ -94,11 +94,11 @@ Use $wechat-article-stylist to write a WeChat public account article about why d
 
 ## Included Files
 
-- [SKILL.md](/D:/gzh/wechat-article-stylist/SKILL.md)
-- [openai.yaml](/D:/gzh/wechat-article-stylist/agents/openai.yaml)
-- [layout-recipes.md](/D:/gzh/wechat-article-stylist/references/layout-recipes.md)
-- [voice-and-structure.md](/D:/gzh/wechat-article-stylist/references/voice-and-structure.md)
-- [wechat-article-template.md](/D:/gzh/wechat-article-stylist/assets/wechat-article-template.md)
+- [SKILL.md](wechat-article-stylist/SKILL.md)
+- [openai.yaml](wechat-article-stylist/agents/openai.yaml)
+- [layout-recipes.md](wechat-article-stylist/references/layout-recipes.md)
+- [voice-and-structure.md](wechat-article-stylist/references/voice-and-structure.md)
+- [wechat-article-template.md](wechat-article-stylist/assets/wechat-article-template.md)
 
 ## Notes
 
